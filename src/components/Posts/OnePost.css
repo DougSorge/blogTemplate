@@ -1,0 +1,10 @@
+.outer-container {
+  display: flex;
+}
+
+
+@media only screen and (max-width: 80rem) {
+   .outer-container{
+     flex-wrap: wrap;
+   } 
+}

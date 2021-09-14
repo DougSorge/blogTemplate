@@ -1,0 +1,30 @@
+.nav-item {
+  margin-bottom: 5px;
+  transition: all 0.3s;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.nav-item-hidden {
+  display: none;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.menu-option-description {
+  margin-block: 1rem;
+  font-size: 1.8rem;
+  font-family: "Bebas Neue", Arial, sans-serif;
+}

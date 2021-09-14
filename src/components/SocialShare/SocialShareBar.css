@@ -1,0 +1,19 @@
+.social-share-box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90vw;
+  max-width: 90vw;
+}
+
+.social-share-box button {
+  transition: all 0.3s;
+}
+
+.social-share-box button:hover {
+  transform: translateY(-3px);
+}
+
+.social-share-box button::after {
+  content: "";
+  background-color: inherit;
+}

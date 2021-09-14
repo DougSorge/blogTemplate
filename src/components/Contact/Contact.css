@@ -1,0 +1,94 @@
+.contact-header {
+  padding: 1rem;
+  margin-block: 2rem;
+}
+
+.contact-header h1 {
+  font-family: "Bebas Neue", monospace;
+  letter-spacing: 1.6px;
+  font-size: 6rem;
+  margin: 0 0 1rem 5%;
+}
+
+.contact-header-list {
+  margin-left: 7%;
+}
+
+.contact-header-list li {
+  font-family: "Bebas Neue", monospace;
+  font-size: 3rem;
+  letter-spacing: 1.3px;
+  display: inline-block;
+  margin-inline: 1rem;
+}
+
+.form-info-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.why-contact {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 2rem;
+  width: 50%;
+}
+
+.why-contact h2 {
+  font-family: "Bebas Neue", monospace;
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 1.2px;
+}
+
+.why-contact p {
+  font-size: 1.5rem;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.why-contact a {
+  margin-top: 1rem;
+  color: black;
+}
+
+.why-contact i {
+  font-size: 4rem;
+}
+
+.why-contact i:hover {
+  color: #169bd7;
+}
+
+@media only screen and (max-width: 700px) {
+  .contact-header {
+    text-align: center;
+  }
+
+  .contact-header h1 {
+    font-size: 4rem;
+  }
+
+  .contact-header-list {
+    margin-left: 0;
+    margin-right: 5rem;
+  }
+
+  .contact-header-list li {
+    display: block;
+    font-size: 2.5rem;
+  }
+
+  .form-info-box {
+    flex-direction: column;
+  }
+
+  .why-contact {
+    width: 100%;
+  }
+
+  .why-contact h2 {
+    text-align: center;
+  }
+}

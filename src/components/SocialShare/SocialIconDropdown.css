@@ -1,0 +1,35 @@
+.social-dropdown-box {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  width: 100%;
+  justify-content: flex-start;
+  background-color: black;
+  transition: opacity 1s ease-in-out;
+  z-index: -3;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.social-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.social-visible {
+  transform: translateY(90%);
+  opacity: 1;
+}
+
+.social-dropdown-box a {
+  margin-top: 1rem;
+  margin-inline: 3px;
+  transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 400px) {
+  .social-dropdown-box a {
+    margin-inline: 5px;
+  }
+}

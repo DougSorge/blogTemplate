@@ -1,0 +1,21 @@
+.filter-container {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 3rem;
+  margin-top: 2rem;
+}
+
+.filter-container label {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.filter-container select {
+  font-size: 1.5rem;
+  font-family: "Poppins", Arial, sans-serif;
+  cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.contact-form-1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  max-width: 40%;
+  margin-left: 3%;
+}
+
+.contact-form-1 input,
+textarea,
+button {
+  margin-block: 1rem;
+}
+
+.contact-form-1 input {
+  height: 3rem;
+  border: none;
+  outline: none;
+
+  box-shadow: rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
+}
+
+.contact-form-1 input::placeholder,
+.contact-form-1 textarea::placeholder {
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.contact-form-1 input:focus,
+.contact-form-1 input:active,
+.contact-form-1 textarea:focus {
+  box-shadow: rgba(0, 0, 0, 0.15) -1.95px 1rem 2.6px;
+}
+
+.contact-form-1 textarea {
+  box-shadow: rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+.contact-form-1 textarea:focus {
+  outline: none;
+}
+
+.contact-form-1 button {
+  font-family: "Bebas Neue", monospace;
+  position: relative;
+  font-size: 3.5rem;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  border: none;
+  padding: 1rem 4rem;
+  width: 75%;
+  margin: auto;
+  transition: all 0.3s;
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+}
+
+.contact-form-1 button::after {
+  transition: all 0.3s;
+  content: "";
+  display: block;
+  height: 1rem;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(167, 167, 167);
+}
+
+button:hover {
+  font-size: 3.3rem;
+}
+
+button:hover::after {
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .contact-form-1 {
+    max-width: 95vw;
+    width: 95vw;
+    margin: auto;
+  }
+
+  .contact-form-1 input,
+  text-area {
+    width: 100%;
+  }
+}

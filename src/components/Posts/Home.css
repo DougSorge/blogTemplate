@@ -1,0 +1,68 @@
+.featured-img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -5px;
+}
+
+.post-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.post-title-container {
+  max-height: 90%;
+  position: absolute;
+  bottom: 8%;
+  left: 3%;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  border-radius: 12px;
+}
+
+.post-title {
+  margin: 0;
+  font-size: 8rem;
+  font-family: "Bebas Neue", monospace;
+  color: white;
+}
+
+.post-excerpt {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .post-container {
+    border-radius: none;
+  }
+  .post-title {
+    font-size: 4rem;
+  }
+
+  .post-excerpt {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .post-title-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 85%;
+    padding: 0 1rem;
+    width: 100%;
+    left: 0;
+  }
+
+  .featured-img {
+    margin-bottom: -2px;
+  }
+
+  .post-excerpt {
+    font-size: 1.3rem;
+  }
+}

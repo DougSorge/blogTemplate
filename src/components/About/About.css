@@ -1,0 +1,54 @@
+.hero-section-about {
+  height: 50rem;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) 80%),
+    url("bannerImg4.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-section-about > h1 {
+  position: relative;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Bebas Neue", Cambria, monospace;
+  font-size: 8rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+  margin: 0;
+  color: #eee;
+}
+
+.content-section-about {
+  padding-inline: 1rem;
+  max-width: 80rem;
+  margin: auto;
+}
+
+.content-section-about h2 {
+  font-family: "Bebas Neue", monospace;
+  letter-spacing: 1.3px;
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+.content-section-about h3 {
+  font-family: "Bebas Neue", monospace;
+  margin-left: 1.5rem;
+  font-size: 2.3rem;
+}
+
+.content-section-about p {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+.content-section-about > p:last-of-type {
+  margin-bottom: 2rem;
+}
+
+.content-section-about a {
+  margin-left: 2rem;
+}

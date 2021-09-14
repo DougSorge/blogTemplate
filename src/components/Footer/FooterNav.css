@@ -1,0 +1,14 @@
+.footerNavList {
+  display: flex;
+  width: 40vw;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .footerNavList {
+    width: 80vw;
+    justify-content: space-between;
+  }
+}

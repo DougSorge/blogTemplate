@@ -1,0 +1,98 @@
+.posts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 95vw;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.grid-post-card {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.grid-post-card:hover {
+  transform: scale(1.01);
+}
+
+.grid-post-card a {
+  text-decoration: none;
+}
+
+.grid-image {
+  width: 100%;
+  border-radius: 12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: -1rem;
+}
+
+.grid-post-info-box {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.grid-post-title {
+  font-size: 4rem;
+  margin-top: 5px;
+  margin-bottom: 0;
+  letter-spacing: 1.5px;
+  font-family: "Bebas Neue", monospace;
+}
+
+.grid-post-excerpt {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .grid-post-title {
+    font-size: 2rem;
+  }
+
+  .posts-grid {
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .posts-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+    padding-inline: 1rem;
+  }
+  .grid-post-title {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  .grid-post-excerpt {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-post-title {
+    font-size: 2.5rem;
+  }
+
+  .grid-post-excerpt {
+    font-size: 1.5rem;
+  }
+}

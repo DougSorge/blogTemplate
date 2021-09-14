@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+#root {
+  position: relative;
+  height: 100vh;
+}
+
+/* .construction-container {
+  display: flex;
+  justify-content: center;
+} */
+
+/* .constructionImg {
+  max-width: 80vw;
+  margin-block: 2rem;
+} */

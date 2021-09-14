@@ -1,0 +1,27 @@
+.swiper-container {
+  max-width: 1200px;
+}
+
+.swiper-slide {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  height: 90vh;
+  position: relative;
+}
+
+.swiper-container-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 2rem;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+}
+
+.swiper-pagination-bullet-active {
+  background: white;
+}

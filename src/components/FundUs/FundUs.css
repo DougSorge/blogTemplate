@@ -1,0 +1,75 @@
+.hero-section-funding {
+  height: 50rem;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) 80%),
+    url("fundUsbanner.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-section-funding > h1 {
+  position: relative;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Bebas Neue", Cambria, monospace;
+  font-size: 8rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+  margin: 0;
+  color: #eee;
+}
+
+.hero-section-funding > h2 {
+  position: relative;
+  font-family: "Bebas Neue", Cambria, monospace;
+  font-size: 6rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+  margin-top: 2rem;
+  color: #eee;
+}
+
+.content-section-funding {
+  padding-inline: 1rem;
+  max-width: 80rem;
+  margin: auto;
+}
+
+.content-section-funding h2 {
+  font-family: "Bebas Neue", monospace;
+  letter-spacing: 1.3px;
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+.content-section-funding p,
+li {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+.content-section-funding > p:last-of-type {
+  margin-bottom: 2rem;
+}
+
+.content-section-funding ul {
+  list-style: none;
+}
+
+.content-section-funding a {
+  display: inline-block;
+  margin-block: 1rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-section-funding > h1 {
+    font-size: 6rem;
+  }
+
+  .hero-section-funding > h2 {
+    font-size: 4rem;
+  }
+}
