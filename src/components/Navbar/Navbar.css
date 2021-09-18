@@ -54,7 +54,7 @@
 }
 
 .logo {
-  width: 12rem !important;
+  width: 10rem !important;
 
   transition: all 300ms;
   animation: swell 0.8s ease 1s 2 backwards;
