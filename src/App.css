@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+  position: relative;
+  max-height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: scroll;
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}

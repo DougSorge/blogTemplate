@@ -30,6 +30,6 @@
 
 @media only screen and (max-width: 400px) {
   .social-dropdown-box a {
-    margin-inline: 5px;
+    margin-inline: 25%;
   }
 }

@@ -11,6 +11,8 @@ import AllAuthors from "./components/Author/AllAuthors";
 import About from "./components/About/About";
 import Navbar from "./components/Navbar/Navbar";
 
+import "./App.css";
+
 function App() {
   return (
     <BrowserRouter>

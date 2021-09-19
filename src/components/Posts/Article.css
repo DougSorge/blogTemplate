@@ -110,5 +110,12 @@
   background-color: rgb(29, 29, 29);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
+  .article-content {
+    width: 100%;
+  }
+
+  .article-content {
+    font-size: 1.8rem;
+  }
 }
