@@ -31,11 +31,7 @@ function Contact() {
             vitae. Non consectetur a erat nam at lectus. Dignissim sodales ut eu
             sem integer vitae justo eget magna.
           </p>
-          <a
-            href="https://paypal.me/patriotperspective"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://paypal.com" target="_blank" rel="noreferrer">
             <i class="im im-paypal"></i>
           </a>
         </div>

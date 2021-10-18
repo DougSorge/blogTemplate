@@ -13,7 +13,7 @@ function FundUs() {
           We run on donations so if you love what you see and read on my site
           you can drop me a monetary tip for the hardwork right here: <br />{" "}
           <a href="https://paypal.com" target="_blank" rel="noreferrer">
-            Fake PayPal!{" "}
+            Fake PayPal!
           </a>
         </p>
       </div>
